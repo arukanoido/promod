@@ -1,3 +1,8 @@
+---
+layout: null
+title: Home
+---
+
 The SWC mod comes from an effort to rebalance Squad's meta for competitive play, with additional features to help casters make their streams more dynamic and informative.
 
 # Balance
