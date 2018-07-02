@@ -13,7 +13,7 @@ A full list of all exposed values is [available here](#config).
 # <a name="casters">Casting Features</a>
 All of the following features are only available to users in Admin Cam. These features can be toggled on or off with buttons in the spawn menu. 
 
-[![Overview](https://i.imgur.com/1l1tuGh.png)](https://i.imgur.com/gQjkFmp.jpg)
+[![Overview](https://i.imgur.com/1l1tuGh.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/CastingFeatureOverview.png)
 
 ### Flag status 
 A persistent display at the top of the screen showing the AAS lattice and the team owning each flag.
