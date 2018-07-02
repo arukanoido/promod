@@ -6,14 +6,18 @@ title: Home
 The SWC mod comes from an effort to rebalance Squad's meta for competitive play, with additional features to help casters make their streams more dynamic and informative.
 
 # <a name="balance">Balance</a>
-Rather than configuring gameplay mechanics within the Squad modding tools to one-size-fits-all values, we have exposed values for customization by event coordinators. These values can be modified via config files stored within the mod folder or ingame via a custom UI. Configuration is only read from the server's mod folder, so players don't need to download configuration files. As with the rest of the mod's features, access to the ingame UI for editing config is limited to players with the Admin Cam role.
+Rather than configuring gameplay mechanics within the Squad modding tools to one-size-fits-all values, we have exposed values for customization by event coordinators. These values can be modified via config files stored within the mod folder or ingame via a custom UI. 
+
+[![edit ui](https://i.imgur.com/zornIpc.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/ConfigEditorOverview.png)
+
+Configuration is only read from the server's mod folder, so players don't need to download configuration files. As with the rest of the mod's features, access to the ingame UI for editing config is limited to players with the Admin Cam role.
 
 A full list of all exposed values is [available here](#config).
 
 # <a name="casters">Casting Features</a>
 All of the following features are only available to users in Admin Cam. These features can be toggled on or off with buttons in the spawn menu. 
 
-[![Overview](https://i.imgur.com/1l1tuGh.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/CastingFeatureOverview.png)
+[![edit panel](https://i.imgur.com/ehgWzeE.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/SquadListOverview.png)
 
 ### Flag status 
 A persistent display at the top of the screen showing the AAS lattice and the team owning each flag.
@@ -31,6 +35,8 @@ When you target a player or a vehicle, you will see a red triangle indicating th
 ### Spectate camera
 When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `Delete` will toggle the window size to be larger or smaller. Pressing `Insert` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
 
+[![overview](https://i.imgur.com/1l1tuGh.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/CastingFeatureOverview.png)
+
 # <a name="config">Configuration</a>
 
 Layer
@@ -47,6 +53,11 @@ Flags
  - Tickets gained on neutral capture
 
 # <a name="credit">Credit</a>
-salt. DevilsD
+<dl>
+ <dt>salt. DevilsD</dt>
+ <dd>Discord: DevilsD#0613</dd>
+</dl>
 
-\|F\| Arkanoid
+<dl>
+ <dt>|F| Arkanoid</dt>
+</dl>
