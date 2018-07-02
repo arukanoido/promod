@@ -2,7 +2,12 @@
 layout: default
 title: Home
 ---
-<nav><a href="#balance>Balance</a></nav> 
+<nav>
+  <a href="#balance>
+    Balance
+  </a>
+
+</nav> 
 [Casters](#casters) [Meta](#meta) [Credit](#credit)
 
 The SWC mod comes from an effort to rebalance Squad's meta for competitive play, with additional features to help casters make their streams more dynamic and informative.
