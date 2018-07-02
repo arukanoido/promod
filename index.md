@@ -17,7 +17,7 @@ A full list of all exposed values is [available here](#config).
 # <a name="casters">Casting Features</a>
 All of the following features are only available to users in Admin Cam. These features can be toggled on or off with buttons in the spawn menu. 
 
-[![edit panel](https://i.imgur.com/ehgWzeE.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/SquadListOverview.png)
+<a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/SquadListOverview.png" target="_blank">![edit panel](https://i.imgur.com/ehgWzeE.png)
 
 ### Flag status 
 A persistent display at the top of the screen showing the AAS lattice and the team owning each flag.
@@ -35,7 +35,7 @@ When you target a player or a vehicle, you will see a red triangle indicating th
 ### Spectate camera
 When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `Delete` will toggle the window size to be larger or smaller. Pressing `Insert` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
 
-[![overview](https://i.imgur.com/1l1tuGh.png)](http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/CastingFeatureOverview.png)
+<a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/CastingFeatureOverview.png" target="_blank">![overview](https://i.imgur.com/1l1tuGh.png)</a>
 
 # <a name="config">Configuration</a>
 
