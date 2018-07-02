@@ -30,9 +30,11 @@ When you target a player or a vehicle, you will see a red triangle indicating th
 When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `Delete` will toggle the window size to be larger or smaller. Pressing `Insert` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
 
 # <a name="config">Configuration</a>
+
 Vehicles
  - Ticket Cost
  - Respawn Time (in seconds)
+ 
 Flags
  - Tickets lost on flag capture
  - Tickets gained on flag capture
