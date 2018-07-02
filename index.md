@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+[Balance](#balance) [Casters](#casters) [Meta](#meta) [Credits](#credit)
 
 The SWC mod comes from an effort to rebalance Squad's meta for competitive play, with additional features to help casters make their streams more dynamic and informative.
 
@@ -67,7 +68,7 @@ When you target a player, pressing `Right Mouse Button` will open a small window
 - a
 - a
 
-# Credit
+# <a name="casters">Credit</a>
 salt. DevilsD
 
 \|F\| Arkanoid
