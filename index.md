@@ -8,7 +8,7 @@ The SWC mod comes from an effort to rebalance Squad's meta for competitive play,
 # Balance
 Rather than configuring gameplay mechanics within the Squad modding tools to one-size-fits-all values, we have exposed values for customization by event coordinators. These values can be modified via config files stored within the mod folder or ingame via a custom UI. Configuration is only read from the server's mod folder, so players don't need to download configuration files. As with the rest of the mod's features, access to the ingame UI for editing config is limited to players with the Admin Cam role.
 
-A full list of all exposed values is [available here](https://arukanoido.github.io/swc-mod/meta).
+A full list of all exposed values is {{ site.baseurl }}{% link pages/meta.md %}.
 
 # Casters
 All of the following features are only available to users in Admin Cam.
