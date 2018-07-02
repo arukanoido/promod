@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-* {
- color: red; 
+nav a {
+ border: 1px solid black;
 }
