@@ -10,7 +10,7 @@ Rather than configuring gameplay mechanics within the Squad modding tools to one
 
 A full list of all exposed values is [available here](#config).
 
-# <a name="casters">Casters</a>
+# <a name="casters">Casting Features</a>
 All of the following features are only available to users in Admin Cam.
 
 ### Flag status 
@@ -30,8 +30,14 @@ When you target a player or a vehicle, you will see a red triangle indicating th
 When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `Delete` will toggle the window size to be larger or smaller. Pressing `Insert` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
 
 # <a name="config">Configuration</a>
-
-
+Vehicles
+ - Ticket Cost
+ - Respawn Time (in seconds)
+Flags
+ - Tickets lost on flag capture
+ - Tickets gained on flag capture
+ - Gain tickets from neutral
+ - Tickets gained on neutral capture
 
 # <a name="credit">Credit</a>
 salt. DevilsD
