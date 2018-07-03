@@ -40,11 +40,11 @@ When you target a player, pressing `Right Mouse Button` will open a small window
 # <a name="config">Configuration</a>
 
 Layer
- - Starting ticket cost (per team)
+ - Starting ticket amount (per team)
 
 Vehicles
- - Ticket Cost
- - Respawn Time (in seconds)
+ - Ticket cost
+ - Respawn time (in seconds)
  
 Flags
  - Tickets lost on flag capture
