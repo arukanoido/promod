@@ -10,7 +10,7 @@ Rather than configuring gameplay mechanics within the Squad modding tools to one
 
 <a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Images/ConfigEditorOverview.png" target="_blank">![edit ui](https://i.imgur.com/zornIpc.png)</a>
 
-Configuration is server-authoritative, so players don't need to download configuration files. As with the rest of the mod's features, access to the ingame UI for editing config is limited to players with the Admin Cam role.
+Configuration is server-authoritative, so players don't need to download configuration files. As with the rest of the mod's features, access to the ingame UI for editing configuration is limited to players with the Admin Cam role.
 
 A full list of all exposed values is [available here](#config).
 
@@ -32,7 +32,6 @@ When a FOB, HAB, vehicle, or flag capture event occurs, an icon is placed above 
 
 ### Follow camera
 When you target a player or a vehicle, you will see a red triangle indicating that they can be followed. Pressing `Left Mouse Button` will attach the camera to them, so that as they move, the camera moves. While in follow mode, you can't move the camera with WASD, only look around. Pressing `Left Mouse Button` again will toggle the mode off.
-
 
 ### Spectate camera
 When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `R` will toggle the window size to be larger or smaller. Pressing `T` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
