@@ -65,6 +65,6 @@ Flags
 </dl>
 
 # <a name="modsource">Mod Source</a>
-<a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Source/SWCMod1.0.rar" target="_blank">!(SWCMod V1.0)</a>
+<a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Source/SWCMod1.0.rar" target="_blank"> - SWCMod V1.0</a>
 
 ---
