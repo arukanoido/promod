@@ -26,7 +26,7 @@ A persistent display at the top of the screen showing the AAS lattice and the te
 A persistent feed in a panel at the top right which shows infantry kills as they happen, as well as FOB, HAB, or vehicle destruction.
 
 ### Event point of interest icons
-When a FOB, HAB, vehicle, or flag capture event occurs, an icon is placed above the event in the game world showing what type of event occurred. The `Q` key will automatically move the camera to the event's location so that casters can quickly react to events as they happen. The `E` key returns the camera to the original location.
+When a FOB, HAB, vehicle, or flag capture event occurs, an icon is placed above the event in the game world showing what type of event occurred. The `R` key will automatically move the camera to the event's location so that casters can quickly react to events as they happen. The `T` key returns the camera to the original location.
 
 <a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Images/POIOverview.png" target="_blank">![edit panel](https://i.imgur.com/A2psYjN.png)
 
@@ -34,7 +34,7 @@ When a FOB, HAB, vehicle, or flag capture event occurs, an icon is placed above 
 When you target a player or a vehicle, you will see a red triangle indicating that they can be followed. Pressing `Left Mouse Button` will attach the camera to them, so that as they move, the camera moves. While in follow mode, you can't move the camera with WASD, only look around. Pressing `Left Mouse Button` again will toggle the mode off.
 
 ### Spectate camera
-When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `R` will toggle the window size to be larger or smaller. Pressing `T` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
+When you target a player, pressing `Right Mouse Button` will open a small window in the bottom left, showing that player's viewpoint. Pressing `Q` will toggle the window size to be larger or smaller. Pressing `E` will replace the main view with the player's viewpoint entirely. `Right Mouse Button` will toggle the mode on and off.
 
 <a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Images/CastingFeatureOverview.png" target="_blank">![overview](https://i.imgur.com/1l1tuGh.png)</a>
 
