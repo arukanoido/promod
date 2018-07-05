@@ -65,7 +65,7 @@ Flags
 </dl>
 
 # <a name="modsource">Mod Source</a>
-We are making the mod SDK files available as a modder's resource. Usage is free for non-commercial purposes. The credit section of this page should be included wherever the mod is used. Contact DevilsD via Discord if you have technical questions.
+We are making the mod SDK files available as a modder's resource. Usage is free for non-commercial purposes. The credit section of this page should be included wherever the mod is used. Contact DevilsD via Discord if you have technical questions or questions about usage.
 <a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Source/SWCMod1.0.rar" target="_blank">Download here.</a>
 
 ---
