@@ -40,6 +40,11 @@ When you target a player, pressing `Right Mouse Button` will open a small window
 
 # <a name="config">Configuration</a>
 
+Game
+ - Startup time (in seconds)
+ - Match time (in seconds)
+ - Time between rounds (in seconds)
+
 Layer
  - Starting ticket amount (per team)
 
