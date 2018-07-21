@@ -58,6 +58,15 @@ Flags
  - Gain tickets from neutral
  - Tickets gained on neutral capture
 
+# <a name="known-issues">Known Issues</a>
+
+1. White screen loading a map
+> Normal behavior when loading any mod maps.
+2. Cannot use Admin console commands when switching from a vanilla map to a mod map
+> A vanilla Squad bug when loading any mod maps. Reconnect to the server after changing the map.
+3. Stuttering in the Spectate Camera using in-picture mode.
+> An engine optimization. Keep the player in view on your screen when using in-picture mode.
+
 # <a name="credit">Credit</a>
 <dl>
  <dt>salt. DevilsD</dt>
