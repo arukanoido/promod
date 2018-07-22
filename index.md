@@ -26,9 +26,12 @@ A persistent display at the top of the screen showing the AAS lattice and the te
 A persistent feed in a panel at the top right which shows infantry kills as they happen, as well as FOB, HAB, or vehicle destruction.
 
 ### Event point of interest icons
-When a FOB, HAB, vehicle, or flag capture event occurs, an icon is placed above the event in the game world showing what type of event occurred. The `R` key will automatically move the camera to the event's location so that casters can quickly react to events as they happen. The `T` key returns the camera to the original location.
+When a FOB, HAB, vehicle, or flag event occurs, an icon is placed above the event in the game world showing what type of event occurred. The `R` key will automatically move the camera to the event's location so that casters can quickly react to events as they happen. The `T` key returns the camera to the original location.
 
 <a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Images/POIOverview.png" target="_blank">![edit panel](https://i.imgur.com/A2psYjN.png)
+
+### Map Teleport
+You can select a place on the map to instantly go to by double clicking on it. 
 
 ### Follow camera
 When you target a player or a vehicle, you will see a red triangle indicating that they can be followed. Pressing `Left Mouse Button` will attach the camera to them, so that as they move, the camera moves. While in follow mode, you can't move the camera with WASD, only look around. Pressing `Left Mouse Button` again will toggle the mode off.
