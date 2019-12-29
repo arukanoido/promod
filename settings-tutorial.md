@@ -9,7 +9,7 @@ The settings component comes in 2 parts: the Config Parser, and the Mod Settings
 
 1) Add BP_MainMenuModSettings component to your HUD class override.
 
-<a href="https://i.imgur.com/FOHe1jo.png" target="_blank">![main menu mod settings](https://i.imgur.com/L6DKtpA.png)</a>
+<a href="https://i.imgur.com/FOHe1jo.png" target="_blank" rel="noopener noreferrer">![main menu mod settings](https://i.imgur.com/L6DKtpA.png)</a>
 
 For settings to be persisted to disk on the client or server, BP_SettingsPlayerState and BP_SettingsGameState overrides are provided which include the necessary RPCs for managing read and write. These overrides should be placed last in the reference chain. If you already have overrides for PlayerState and GameState classes, reparent BP_SettingsPlayerState to BP_YourPlayerState class (and the same for BP_SettingsGameState) or if not, reparent BP_SettingsPlayerState to Squad's default classes, called SQPlayerState and BP_GameStateSquad respectively.
 
@@ -21,4 +21,4 @@ To add a new page of settings to the Mod Settings menu, create a new Widget Blue
 
 3) Create a new Widget Blueprint parented to WBP_ModSettingsBase, and override GetSettingsHierarchy to define the position in the menu where the settings page will be displayed.
 
-<a href="https://i.imgur.com/henvduG.png" target="_blank">![settings hierarchy](https://i.imgur.com/uDbsBVf.png)</a>
+<a href="https://i.imgur.com/henvduG.png" target="_blank" rel="noopener noreferrer">![settings hierarchy](https://i.imgur.com/uDbsBVf.png)</a>
