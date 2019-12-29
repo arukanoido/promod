@@ -15,4 +15,4 @@ For settings to be persisted to disk on the client or server, BP_SettingsPlayerS
 
 2) Reparent BP_SettingsPlayerState and BP_SettingsGameState as the child of any existing PlayerState or GameState classes, and set them as overrides in your GameMode class.
 
-![reference tree](https://i.imgur.com/DcbLwdG.png)
+![reference tree](https://i.imgur.com/42rI5U4.png)
