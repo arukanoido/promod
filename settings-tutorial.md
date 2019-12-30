@@ -28,3 +28,13 @@ The settings widget blueprint you created in Step 3 can be configured to save it
 4) Configure class defaults for your Widget Blueprint as needed.
 
 <a href="https://i.imgur.com/fxAb2mT.png" target="_blank" rel="noopener noreferrer">![settings class defaults](https://i.imgur.com/SOeunvE.png)</a>
+
+Continue building out the settings controls. It's required to add a Vertical Box, and make it a variable. 3 control types are provided, WBP_SettingsItem_Slider, WBP_SettingsItem_TickBox, and WBP_SettingsItem_TextBox for different needs, along with a WBP_SettingsHeader. For each control used, make sure to set the Key variable to the name of the settings key it is for.
+
+5) Add a Vertical Box (and make it a variable) and add controls to the Vertical Box from the provided control widgets. For each control, set a unique Key variable.
+
+<a href="https://i.imgur.com/ihwvlgx.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/npMNZEN.png)</a>
+
+6) Override the GetControlParent interface function to return the Vertical Box created in step 5.
+
+<a href="https://i.imgur.com/Hh4eih7.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/j4tF59l.png)</a>
