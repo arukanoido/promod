@@ -38,3 +38,9 @@ Continue building out the settings controls. It's required to add a Vertical Box
 6) Override the GetControlParent interface function to return the Vertical Box created in step 5.
 
 <a href="https://i.imgur.com/Hh4eih7.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/j4tF59l.png)</a>
+
+The standard way to access what values have been set is to get the Player State (if client side) or get the Game State (if serverside). Multiple helper functions are provided for retrieving settings values in different forms. You can go directly to the config parser component for values if you like. The BPFL function GetConfigParserComponent will return the Game State's config parser, useful for serverside code.
+
+7) Use the set values in your code.
+
+<a href="https://i.imgur.com/fNEvjSE.png" target="_blank" rel="noopener noreferrer">![using the settings values](https://i.imgur.com/klvQ4XB.png)</a>
