@@ -44,3 +44,5 @@ The standard way to access what values have been set is to get the Player State 
 7) Use the set values in your code.
 
 <a href="https://i.imgur.com/fNEvjSE.png" target="_blank" rel="noopener noreferrer">![using the settings values](https://i.imgur.com/klvQ4XB.png)</a>
+
+---
