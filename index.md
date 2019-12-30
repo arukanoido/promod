@@ -8,14 +8,12 @@ The SWC mod comes from an effort to rebalance Squad's meta for competitive play,
 # <a name="balance">Balance</a>
 Rather than configuring gameplay mechanics within the Squad modding tools to one-size-fits-all values, we have exposed values for customization by event coordinators. These values can be modified via config files stored within the mod folder or ingame via a custom UI. 
 
-<a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Images/ConfigEditorOverview.png" target="_blank">![edit ui](https://i.imgur.com/zornIpc.png)</a>
+<a href="https://i.imgur.com/FOHe1jo.png" target="_blank" rel="noopener noreferrer">![main menu mod settings](https://i.imgur.com/L6DKtpA.png)</a>
 
-Configuration is server-authoritative, so players don't need to download configuration files. As with the rest of the mod's features, access to the ingame UI for editing configuration is limited to players with the Admin Cam role.
-
-A full list of all exposed values is [available here](#config).
+A mod settings menu is provided for configuring mod features. This mod settings menu is designed as a modular system which can be dropped into other mods and used quickly. See the [Settings Tutorial](https://arukanoido.github.io/swc-mod/settings-tutorial) for detailed instructions.
 
 # <a name="casters">Casting Features</a>
-All of the following features are only available to users in Admin Cam. These features can be toggled on or off with buttons in the spawn menu. 
+All of the following features are only available to users in Admin Cam.
 
 <a href="http://www.fissureentertainment.com/devilsd/UnrealEngine/SWCMod/Images/SquadListOverview.png" target="_blank">![edit panel](https://i.imgur.com/ehgWzeE.png)
 
