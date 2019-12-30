@@ -10,7 +10,7 @@ Rather than configuring gameplay mechanics within the Squad modding tools to one
 
 <a href="https://i.imgur.com/FOHe1jo.png" target="_blank" rel="noopener noreferrer">![main menu mod settings](https://i.imgur.com/L6DKtpA.png)</a>
 
-A mod settings menu is provided for configuring mod features. This mod settings menu is designed as a modular system which can be dropped into other mods and used quickly. See the [Settings Tutorial](https://arukanoido.github.io/swc-mod/settings-tutorial) for detailed instructions.
+A mod settings menu is provided for configuring mod features. This mod settings menu is designed as a modular system which can be dropped into other mods and used quickly. As the mod is open source, we encourage you to use this mod settings module in your mods. See the [Settings Tutorial](https://arukanoido.github.io/swc-mod/settings-tutorial) for detailed instructions.
 
 # <a name="casters">Casting Features</a>
 All of the following features are only available to users in Admin Cam.
