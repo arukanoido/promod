@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-The SWC mod comes from an effort to rebalance Squad's meta for competitive play, with additional features to help casters make their streams more dynamic and informative.
+Squad ProMod comes from an effort to rebalance Squad's meta for competitive play, with additional features to help casters make their streams more dynamic and informative.
 
 # <a name="balance">Balance</a>
 Rather than configuring gameplay mechanics within the Squad modding tools to one-size-fits-all values, we have exposed values for customization by event coordinators. These values can be modified via config files stored within the mod folder or ingame via a custom UI. 
