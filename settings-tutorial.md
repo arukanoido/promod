@@ -3,7 +3,7 @@ layout: default
 title: Settings Tutorial
 ---
 
-# Squad ProMod settings module tutorial
+# Squad ProMod Settings Module Tutorial
 
 The settings component comes in 2 parts: the Config Parser, and the Mod Settings UI kit. The Mod Settings UI kit includes a component called BP_MainMenuModSettings which is added to the HUD and adds the MODS settings menu in the game's Main Menu.
 
