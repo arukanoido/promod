@@ -19,6 +19,12 @@ For settings to be persisted to disk on the client or server, BP_SettingsPlayerS
 
 To add a new page of settings to the Mod Settings menu, create a new Widget Blueprint and parent it to WBP_ModSettingsBase. Override the GetSettingsHierarchy interface function, and create Map and Array literals to sketch the menu hierarchy. The S_SettingsTree struct allows each child item within the submenu to have 1 or many children of its own. Multiple settings pages can be added to the tree using this function, if needed.
 
-3) Create a new Widget Blueprint parented to WBP_ModSettingsBase, and override GetSettingsHierarchy to define the position in the menu where the settings page will be displayed.
+3) Create a new Widget Blueprint parented to WBP_ModSettingsBase, and override GetSettingsHierarchy to define the position in the Settings menu where the settings page will be displayed.
 
 <a href="https://i.imgur.com/henvduG.png" target="_blank" rel="noopener noreferrer">![settings hierarchy](https://i.imgur.com/uDbsBVf.png)</a>
+
+The settings widget blueprint you created in Step 3 can be configured to save its settings to a file on the Client or Server using the Persistence Type option. Sessional doesn't save to a file, so settings changed only last until the game is closed. The Permissions Type option is used to determine who can access the settings page in the Main Menu. Using the Cameraman permission requires that the player have toggled admin cam on to see the settings. The Whitelist permission type checks the player's Steam ID against the list provided in the SteamIDWhitelist option in the class defaults. Default Filename should be set to something unique even if Sessional persistence is used, and should be similar to the name of the settings page. Default Namespace can be changed if desired, otherwise leave default. The Backup option can be set to a data table asset for restoring backups if needed. It's ok to leave this blank if you are defining settings controls manually, since the settings control defaults will be used in that case.
+
+4) Configure class defaults for your Widget Blueprint as needed.
+
+<a href="https://i.imgur.com/fxAb2mT.png" target="_blank" rel="noopener noreferrer">![settings class defaults](https://i.imgur.com/SOeunvE.png)</a>
