@@ -39,7 +39,7 @@ Continue building out the settings controls. It's required to add a Vertical Box
 
 <a href="https://i.imgur.com/Hh4eih7.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/j4tF59l.png)</a>
 
-The standard way to access what values have been set is to get the Player State (if client side) or get the Game State (if serverside). Multiple helper functions are provided for retrieving settings values in different forms. You can go directly to the config parser component for values if you like. The BPFL function GetConfigParserComponent will return the Game State's config parser, a useful shortcut for serverside code.
+The standard way to access what values have been set is to get the Player State (if client side) or get the Game State (if serverside). Multiple helper functions are provided for retrieving settings values in different forms. You can go directly to the config parser component for values if you like. The BPFL function GetConfigParserComponent will return the Game State's config parser, a useful shortcut for serverside code. Settings values are automatically mirrored between client and server (if persistence type is serverside) so there should be no inconsistencies. There is an OnSettingsUpdated event on the PlayerState which triggers each time a setting is set, which can be used to update client code in realtime.
 
 7) Use the set values in your code.
 
