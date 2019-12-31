@@ -5,7 +5,7 @@ title: Settings Tutorial
 
 # Squad ProMod Settings Module Tutorial
 
-The settings component comes in 2 parts: the Config Parser, and the Mod Settings UI kit. The Mod Settings UI kit includes a component called BP_MainMenuModSettings which is added to the HUD and adds the MODS settings menu in the game's Main Menu.
+The settings module comes in 2 parts: the Config Parser, and the Mod Settings UI kit. The Mod Settings UI kit includes a component called BP_MainMenuModSettings which is added to the HUD and adds the MODS settings menu in the game's Main Menu.
 
 1) Add BP_MainMenuModSettings component to your HUD class override.
 
@@ -34,6 +34,10 @@ Continue building out the settings controls. It's required to add a Vertical Box
 5) Add a Vertical Box (and make it a variable) and add controls to the Vertical Box from the provided control widgets. For each control, set a unique Key variable.
 
 <a href="https://i.imgur.com/ihwvlgx.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/npMNZEN.png)</a>
+
+6) Add events to get user input from each control and use the variety of Set functions provided to set values in the correct format. The Set Simple functions allow a shorthand method that only requires passing the control widget to the function.
+
+<a href="https://i.imgur.com/Lx7dDVt.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/Xz7CRty.png)</a>
 
 6) Override the GetControlParent interface function to return the Vertical Box created in step 5.
 
