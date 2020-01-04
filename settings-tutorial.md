@@ -33,13 +33,13 @@ Continue building out the settings controls. It's required to add a Vertical Box
 
 <a href="https://i.imgur.com/ihwvlgx.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/npMNZEN.png)</a>
 
-#### 6) Add events to get user input from each control and use the variety of Set functions provided to set values in the correct format. The Set Simple functions allow a shorthand method that only requires passing the control widget to the function.
-
-<a href="https://i.imgur.com/Lx7dDVt.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/Xz7CRty.png)</a>
-
-#### 7) Override the GetControlParent interface function to return the Vertical Box created in step 5.
+#### 6) Override the GetControlParent interface function to return the Vertical Box created in step 5.
 
 <a href="https://i.imgur.com/Hh4eih7.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/j4tF59l.png)</a>
+
+#### 7) Add events to get user input from each control and use the variety of Set functions provided to set values in the correct format. The Set Simple functions allow a shorthand method that only requires passing the control widget to the function.
+
+<a href="https://i.imgur.com/Lx7dDVt.png" target="_blank" rel="noopener noreferrer">![building the settings page](https://i.imgur.com/Xz7CRty.png)</a>
 
 #### 8) Use the set values in your code.
 
